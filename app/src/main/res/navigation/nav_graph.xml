@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/WelcomeFragment">
+    <fragment
+        android:id="@+id/WelcomeFragment"
+        android:name="com.skillbox.aslanbolurov.appquiz.ui.main.WelcomeScreenFragment"
+        android:label="Welcome Screen Fragment"
+        tools:layout="@layout/fragment_welcome_screen">
+        <action
+            android:id="@+id/action_WelcomeFragment_to_SurveyFragment"
+            app:destination="@id/SurveyFragment"/>
+    </fragment>
+    <fragment
+        android:id="@+id/SurveyFragment"
+        android:name="com.skillbox.aslanbolurov.appquiz.ui.main.SurveyScreenFragment"
+        android:label="Survey Screen Fragment"
+        tools:layout="@layout/fragment_survey_screen">
+        <action
+            android:id="@+id/action_SurveyFragment_to_ResultFragment"
+            app:destination="@id/ResultFragment"/>
+        <action
+            android:id="@+id/action_SurveyFragment_to_WelcomeFragment"
+            app:destination="@id/WelcomeFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/ResultFragment"
+        android:name="com.skillbox.aslanbolurov.appquiz.ui.main.ResultScreenFragment"
+        android:label="Result Screen Fragment"
+        tools:layout="@layout/fragment_result_screen">
+        <action
+            android:id="@+id/action_ResultFragment_to_WelcomeFragment"
+            app:destination="@id/WelcomeFragment"/>
+        <action
+            android:id="@+id/action_ResultFragment_to_SurveyFragment"
+            app:destination="@id/SurveyFragment"/>
+    </fragment>
+</navigation>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Quiz application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start_button">Start</string>
+    <string name="start_again_button">Start Again</string>
+    <string name="back_to_welcome_button">Back to Welcome</string>
+    <string name="result_button">Result</string>
+    <string name="select_date_button">Select date</string>
+    <string name="choose_the_date_dialog_title" translatable="false">Открыть выбор даты</string>
+</resources>

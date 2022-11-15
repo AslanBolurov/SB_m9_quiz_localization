@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Приложение Quiz</string>
+    <string name="hello_blank_fragment">Привет пустой фрагмент</string>
+    <string name="start_button">Старт</string>
+    <string name="start_again_button">Начать еще раз</string>
+    <string name="back_to_welcome_button">Назад в приветствие</string>
+    <string name="result_button">Результаты</string>
+    <string name="select_date_button">Выберите дату</string>
+</resources>
